@@ -1,6 +1,6 @@
 package entity
 
-import "github.com/zen006598/goDemo/ex4/enums"
+import "github.com/zen006598/goDemo/ex4_struct/enums"
 
 type Box struct {
 	Width  int

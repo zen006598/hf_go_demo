@@ -3,9 +3,8 @@ package main
 import (
 	"fmt"
 
-	entity "github.com/zen006598/goDemo/ex4/entities"
-	person "github.com/zen006598/goDemo/ex4/entities"
-	"github.com/zen006598/goDemo/ex4/enums"
+	entity "github.com/zen006598/goDemo/ex4_struct/entities"
+	"github.com/zen006598/goDemo/ex4_struct/enums"
 )
 
 // struct
@@ -46,7 +45,7 @@ func ex3() {
 	p.SetAge(66)
 	fmt.Println(p.GetAge())
 
-	p2 := person.NewPerson("jeff2", 77)
+	p2 := entity.NewPerson("jeff2", 77)
 	fmt.Println(p2.GetAge())
 }
 
